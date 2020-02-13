@@ -17,7 +17,7 @@ public abstract class UUIDGenericEntity {
 
 	@NotNull
 	@Id
-	private UUID uuid;
+	protected UUID uuid;
 	
 	public UUIDGenericEntity() {
 		this.uuid = UUID.randomUUID();
