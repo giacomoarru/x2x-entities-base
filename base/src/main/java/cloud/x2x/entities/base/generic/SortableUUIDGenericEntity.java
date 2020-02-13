@@ -4,7 +4,7 @@ import javax.persistence.MappedSuperclass;
 import javax.validation.constraints.NotNull;
 
 /**
- * Generic sortable UUIDGenericEntity
+ * Sortable UUIDGenericEntity
  */
 @MappedSuperclass
 public abstract class SortableUUIDGenericEntity extends UUIDGenericEntity implements Comparable<SortableUUIDGenericEntity> {
