@@ -18,7 +18,7 @@ public abstract class IDGenericEntity {
 	@Id
 	@GeneratedValue
 	protected Integer id;
-
+	
 	public Integer getId() {
 		return id;
 	}
